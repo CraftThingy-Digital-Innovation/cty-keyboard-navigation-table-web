@@ -1,6 +1,7 @@
 {
   "name": "@craftthingy-digital-innovation/cty-keyboard-navigation-table-web",
-  "version": "1.0.0",
+  "description": "Interactive responsive table cell keyboard navigation manager for custom web forms.",
+  "version": "1.0.1",
   "type": "module",
   "repository": {
     "type": "git",
