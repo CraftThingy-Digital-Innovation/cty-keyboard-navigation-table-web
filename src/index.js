@@ -73,3 +73,7 @@ export class KeyboardNavTable {
         }
     }
 }
+
+if (typeof window !== 'undefined') {
+    window.KeyboardNavTable = KeyboardNavTable;
+}
