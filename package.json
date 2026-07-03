@@ -1,0 +1,35 @@
+{
+  "name": "@craftthingy-digital-innovation/cty-keyboard-navigation-table-web",
+  "version": "1.0.0",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CraftThingy-Digital-Innovation/cty-keyboard-navigation-table-web.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CraftThingy-Digital-Innovation/cty-keyboard-navigation-table-web/issues"
+  },
+  "homepage": "https://github.com/CraftThingy-Digital-Innovation/cty-keyboard-navigation-table-web#readme",
+  "main": "./dist/cty-keyboard-navigation-table.umd.js",
+  "module": "./dist/cty-keyboard-navigation-table.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/cty-keyboard-navigation-table.es.js",
+      "require": "./dist/cty-keyboard-navigation-table.umd.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "vite build"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vite": "^5.2.0"
+  }
+}
